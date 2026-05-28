@@ -1,0 +1,15 @@
+import pandas as pd
+import numpy as np
+import re
+from sklearn.preprocessing import LabelEncoder
+
+# 1. Check for missing values and handle them.
+# 2. Check for duplicate rows and remove them.
+# 3. Inspect the "Sex" column for inconsistencies and standardize values.
+# 4. Detect and handle outliers in the "Age" and "Fare" columns.
+# 5. Create a new "Family_Size" feature based on "SibSp" and "Parch".
+# 6. Convert the "Embarked" column to numerical values using label encoding.
+# 7. If a "Ticket_Purchase_Date" column existed, convert it to datetime and extract the year and month.
+# 8. Clean the "Name" column by removing titles and converting to lowercase.
+# 9. Bin the "Age" column into categories like 'Child', 'Teen', 'Adult', and 'Senior'.
+
